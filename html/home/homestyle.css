@@ -1,24 +1,27 @@
 /*Author: Curt Falconi*/
 .centersans
 {
-text-align:center;
-font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-size:2vw;
+	text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:2vw;
 }
 .centersans h1
 {
-color:black;
-font-size:5vw;
-white-space: nowrap;
-text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+	color:black;
+	font-size:5vw;
+	white-space: nowrap;
+	text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
 }
 .centersans h2
 {
 	font-size:2vw;
+	margin-top:-2%;
 }
 .centersans h3
 {
-text-shadow: 2px 2px #FFFFFF;
+	font-size:1.6vw;
+	text-align:center;
+	margin-top:-1.5%;
 }
 .txtbox
 {
@@ -29,6 +32,34 @@ text-shadow: 2px 2px #FFFFFF;
 	font-size:20px;
 	line-height:35px
 }
+
+/*Doesn't allow text to be highlighted, used for aesthetic reasons*/
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none; 
+}
+
+/*Makes links fade to a different color when hovered over*/
+a {
+	text-decoration: none;
+	color:#1100B7;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+  
+  transition:.5s;
+}
+
+a:hover { 
+color:#06FF00;
+text-shadow: -1px -1px 0 #1100B7, 1px -1px 0 #1100B7, -1px 1px 0 #1100B7, 1px 1px 0 #1100B7;
+}
+
 body{
 background-color:#FFFFF;
 animation: LoopAnim 25s linear infinite;
