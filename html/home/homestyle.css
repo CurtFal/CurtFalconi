@@ -44,9 +44,9 @@
 }
 
 /*Makes links fade to a different color when hovered over*/
-a {
+.centersans a {
 	text-decoration: none;
-	color:#1100B7;
+	color:#FFFFFF;
 	-o-transition:.5s;
 	-ms-transition:.5s;
 	-moz-transition:.5s;
@@ -55,9 +55,21 @@ a {
   transition:.5s;
 }
 
-a:hover { 
-color:#06FF00;
-text-shadow: -1px -1px 0 #1100B7, 1px -1px 0 #1100B7, -1px 1px 0 #1100B7, 1px 1px 0 #1100B7;
+.centersans a:hover { 
+color:#1100B7;
+text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+.imageicons
+{
+	text-align:center;
+	
+}
+
+.imageicons img:hover 
+{
+    outline: #333 solid 4px;
+	outline-color: #63DCFF;
 }
 
 body{
@@ -84,3 +96,10 @@ background:#6780D2;
 background:#89A5FF;
 }
 }
+<script type="text/javascript">
+		window.onload = landing() 
+		
+		function landing {
+		return "This web page is still under construction Please excuse the unfinished appearance"
+		}
+	</script>
