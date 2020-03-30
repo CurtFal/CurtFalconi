@@ -75,6 +75,7 @@ text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1p
 body{
 background-color:#FFFFF;
 animation: LoopAnim 25s linear infinite;
+
 }
 @keyframes LoopAnim {
 
@@ -96,10 +97,18 @@ background:#6780D2;
 background:#89A5FF;
 }
 }
-<script type="text/javascript">
-		window.onload = landing() 
-		
-		function landing {
-		return "This web page is still under construction Please excuse the unfinished appearance"
-		}
-	</script>
+
+footer {
+    background-color: #2B4498;
+	border-top: 2px solid grey;
+    left: 0;
+    bottom: 3;
+    height: 55px;
+	clear: both;
+    width: 100%;
+    overflow: hidden;
+	text-align:right;
+	position: absolute;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
