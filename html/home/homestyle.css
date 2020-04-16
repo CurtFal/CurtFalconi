@@ -4,7 +4,6 @@
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
 	color: white;
-	
 	border: 3px solid #f1f1f1;
 	position: absolute;
 	top: 15%;
@@ -26,6 +25,8 @@
 }
 .centersans h2
 {
+	color:black;
+	text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
 	font-size:2vw;
 	margin-top:-2%;
 }
@@ -101,21 +102,6 @@ text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1p
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.bgtext {
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-	color: white;
-	
-	border: 3px solid #f1f1f1;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 2;
-	width: 80%;
-	padding: 20px;
-	text-align: center;
 }
 
 body{

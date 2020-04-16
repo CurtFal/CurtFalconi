@@ -1,0 +1,21 @@
+/*Author: Curt Falconi*/
+
+.dates a:hover { 
+color:#00B032;
+text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+.dates a {
+	text-decoration: none;
+	color:#FFFFFF;
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+  
+  transition:.2s;
+}
+
+figcaption {
+	font-size:17px;
+}
