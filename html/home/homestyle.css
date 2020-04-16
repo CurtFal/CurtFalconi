@@ -1,6 +1,18 @@
 /*Author: Curt Falconi*/
 .centersans
 {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	transform: translate(-5%, -25%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
 	text-align:center;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:2vw;
@@ -70,6 +82,40 @@ text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1p
 {
     outline: #333 solid 4px;
 	outline-color: #63DCFF;
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+  
+  transition:.2s;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bgimage {
+  background-image: url("https://i.imgur.com/QAhm9R0.png");
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgtext {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
 }
 
 body{
