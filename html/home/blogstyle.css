@@ -6,6 +6,7 @@ text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1p
 }
 
 .dates a {
+	text-align:center;
 	text-decoration: none;
 	color:#FFFFFF;
 	-o-transition:.2s;
