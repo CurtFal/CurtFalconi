@@ -14,4 +14,4 @@ jobs:
           overwrite: true
           to: 's3://curtfalconi.com'
 orbs:
-  aws-s3: circleci/aws-s3@1.0.15
+  aws-s3: circleci/aws-s2@1.0.15
